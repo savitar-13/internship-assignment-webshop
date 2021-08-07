@@ -1,0 +1,51 @@
+.navbar{
+   max-width: 100%;
+   height: auto;
+   padding: 1.5rem 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #fff;
+}
+
+
+
+.navLinks ul{
+   display: flex;
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navLinks ul li{
+   margin-right: 3rem;
+   font-weight: bold;
+   font-size: .9rem;
+   cursor: pointer;
+}
+
+.navLinks ul #navDropdown{
+   outline: none;
+   border: none;
+   font-size: .9rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.navButtons{
+   margin: 0 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.navButtons *{
+   margin-left: 1rem;
+   font-size: .8rem;
+   font-weight: bold;
+   /* color: #ff2600; */
+}
+
+.navSearchIcon{
+   font-size: 1.2rem;
+   font-weight: 600;
+}

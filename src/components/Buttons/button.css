@@ -1,0 +1,8 @@
+.btnComponent{
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+
+.btnComponent:hover{
+   transform: scale(1.1);
+}
